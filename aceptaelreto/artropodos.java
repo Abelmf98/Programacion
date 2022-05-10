@@ -9,8 +9,10 @@ public class artropodos {
 		//Variables globales
 		int numCasos, insectos, aracnidos, crustaceos, escolpendra, aescolopendra, resultado;
 		
-		System.out.println("Introduce numero de casos: ");
-		numCasos = teclado.nextInt();
+		do {
+			System.out.println("Introduce numero de casos: ");
+			numCasos = teclado.nextInt();
+		}while(numCasos<=0 || numCasos>10);
 		
 		while(numCasos>0) {
 			
