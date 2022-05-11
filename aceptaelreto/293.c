@@ -28,7 +28,7 @@ main(){
 		printf("Introduce numero de anillos de escolopendras: ");
 		scanf("%d", &aescolopendra);
 		
-		//numCasos--;
+		numCasos--;
 		
 		resultado = (insectos*6)+(aracnidos*8)+(crustaceos*10)+(escolpendra*aescolopendra*2);
 		
