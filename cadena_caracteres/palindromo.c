@@ -18,7 +18,7 @@ main()
 		if(cadena[i]==cadena[final]){ 
 		     printf("Es palindromo");
 		}else{
-	        printf("No es palindromo");
+	             printf("No es palindromo");
 	    }
 	    break;
 	}
