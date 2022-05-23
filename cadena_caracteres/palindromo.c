@@ -5,8 +5,7 @@
 char cadena[50];
 int longitud,final,i;
 
-main()
-{
+main(){
 	printf("PALABRAS PALINDROMAS\n");
 	printf("\nEscribe una palabra palindroma: ");
 	scanf(" %s",cadena);
