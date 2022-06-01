@@ -2,14 +2,14 @@ package productos;
 
 public class Impresora extends Productos {
 
-	private String tipo;
+	private TipoImpresion tipo;
 	
 	/**
 	 * clase especial para enumerar los tipos
 	 * @author Abel
 	 *
 	 */
-	public enum tipoImpresion{
+	public enum TipoImpresion{
 		Inyeccion, Laser
 	}
 	
@@ -17,14 +17,14 @@ public class Impresora extends Productos {
 		super(0f, true);
 	}
 	
-	public Impresora(Float precio, String tipo) {
+	public Impresora(Float precio, TipoImpresion tipo) {
 		super(precio, true);
 		this.tipo = tipo;
 	}
 
 	@Override
 	public String toString() {
-		return "Impresora: " + tipoImpresion.Laser + "->" + this.getPrecioOferta();
+		return "Impresora: " + tipo + "->" + this.getPrecioOferta();
 	}
 	
 }
